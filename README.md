@@ -1,7 +1,7 @@
 # websocketDemo
 websocket简易交互demo
 
-#### 1、在根目录安装ws依赖包
+### 1、在根目录安装ws依赖包
   * npm init
   * npm i ws
   * 安装成功后根目录会多出3个文件：package.json，package-lock.json,node_modules
@@ -10,7 +10,8 @@ websocket简易交互demo
     "ws": "^7.2.5"
   }
   
- #### 2、server.js表示服务器端，client.html表示客户端
+  
+ ### 2、server.js表示服务器端，client.html表示客户端
   **server.js：**
   * const WebSocket = require("ws"); // 引入依赖包
   * const wss = new WebSocket.Server({
