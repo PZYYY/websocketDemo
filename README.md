@@ -5,8 +5,8 @@ websocket简易交互demo
   * npm init
   * npm i ws
   * 安装成功后根目录会多出3个文件：package.json，package-lock.json,node_modules
-  在package.json中可以看到安装的依赖
-  * "dependencies": {
+  * 在package.json中可以看到安装的依赖
+  "dependencies": {
     "ws": "^7.2.5"
   }
   
